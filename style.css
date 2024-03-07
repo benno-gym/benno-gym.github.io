@@ -1,0 +1,301 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Roboto Condensed';
+}
+h1, h2, h3 {
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+	position:relative;
+	z-index:99;
+	display: table;
+	margin-left:-10px;
+	padding:5px 10px;
+	border-radius: 10px;
+	background: rgba(255,255,255,1);
+}
+.remark-slide-number{	
+	border-radius: 10px;
+	background: rgba(255,255,255,1);
+	opacity:1;
+	padding:0px 5px;
+	font-size: 0.5em;
+}
+.inverse .remark-slide-number{	
+	display: none;
+}
+.remark-slide-content {
+	font-size: 1.6em;
+	padding: 0.5em 2em 1em 2em;
+}
+.remark-slide-content h1 {
+	font-size: 1.4em;
+}
+.remark-slide-content h2 {
+	font-size: 1.3em;
+}
+.remark-slide-content h3 {
+	font-size: 1.2em;
+}
+.footnote {
+	position: absolute;
+	bottom: 2em;
+    background: rgba(255,255,255,0.8);
+    padding:0 0.5em;
+    z-index: 99;
+}
+.topnote {
+	position: absolute;
+	top: 2em;
+    background: rgba(255,255,255,0.5);
+    padding:0 0.5em;
+}
+li p {
+	line-height: 1.25em;
+}
+.red {
+	color: #fa0000;
+}
+.large {
+	font-size: 2em;
+}
+a, a>code {
+	color: rgb(249, 38, 114);
+	text-decoration: none;
+	padding-right: 0.4em;
+}
+a:after {
+    position: absolute; /* Prevent underline of arrow */
+    padding-left:2px; /* Add a little space between text and arrow */
+    content: "\00bb"; /* Unicode hex for &raquo; */
+}
+code {
+	background: #e7e8e2;
+	border-radius: 5px;
+}
+.remark-code, .remark-inline-code {
+	font-family: 'Ubuntu Mono';
+}
+.remark-code-line-highlighted {
+	background-color: #373832;
+}
+.pull-left {
+	float: left;
+	width: 47%;
+}
+.pull-right {
+	float: right;
+	width: 47%;
+}
+.pull-right~p {
+	clear: both;
+}
+#slideshow .slide .content code {
+	font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+	font-size: 0.9em;
+	padding: 15px;
+}
+.inverse {
+	background: #272822;
+	color: #fff;
+	text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2, .night h1, .night h2  {
+	color: #fff;
+	line-height: 0.8em;
+	padding-bottom: 0.5em;
+	background: none;
+    text-shadow: 0 0 5px black;
+}
+.night{
+	color:#990000;
+	background:#000;
+}
+.night h1, .night h2 {
+	color:#990000;
+}
+/* Slide-specific styling */
+
+#slide-inverse .footnote {
+	bottom: 12px;
+	left: 20px;
+}
+#slide-how .slides {
+	font-size: 0.9em;
+	position: absolute;
+	top: 151px;
+	right: 140px;
+}
+#slide-how .slides h3 {
+	margin-top: 0.2em;
+}
+#slide-how .slides .first, #slide-how .slides .second {
+	padding: 1px 20px;
+	height: 90px;
+	width: 120px;
+	-moz-box-shadow: 0 0 10px #777;
+	-webkit-box-shadow: 0 0 10px #777;
+	box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first {
+	background: #fff;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 1;
+}
+#slide-how .slides .second {
+	position: relative;
+	background: #fff;
+	z-index: 0;
+}
+
+/* Two-column layout */
+
+.left-column {
+	width: 20%;
+	height: 92%;
+	float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+	color: #000;
+}
+.right-column {
+	width: 75%;
+	float: right;
+}
+ul, li {
+	position:relative;
+	z-index: 99;
+}
+
+blockquote {
+	margin: 0;
+	padding-left: 1.4rem;
+	position: relative;
+}
+blockquote::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 4px;
+	height: 100%;
+	background: rgb(249, 38, 114);
+	border-radius: 2px / 4px;
+}
+/* Special Table layout */
+.table table {
+	font-size: 0.4em;
+	width: 100%;
+	table-layout:auto;
+}
+.table td, th {
+	padding: 2px 2px;
+}
+/* Normal Table layout */
+table {
+	font-size: 0.7em;
+	width: 100%;
+	table-layout:fixed;
+}
+thead, th {
+	background: #444;
+	color: #fff;
+	text-align: left;
+}
+
+/* Padding */
+
+td, th {
+	padding: 5px 10px;
+}
+
+/* Alternating background colors */
+
+tr:nth-child(even) {
+	background: #f0f0f0;
+}
+tr:nth-child(odd) {
+	background: #FFF
+}
+th:first-child {
+	border-radius: 6px 0 0 0;
+}
+th:last-child {
+	border-radius: 0 6px 0 0;
+}
+th:only-child {
+	border-radius: 6px 6px 0 0;
+}
+td{
+	vertical-align: top;
+}
+
+/* Video layout */
+
+iframe {
+	width: 100%;
+	height: 12em;
+	border: 0px;
+}
+
+/* Image layout */
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+video{
+	width: 100%;
+}
+.full {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height:auto;
+    min-height:100%;
+    width:auto;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 0;
+}
+.fill {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+	height:auto;
+    width:auto;
+    object-fit: cover;
+}
+.inline {
+	display: inline;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+cite{
+	color:#fff;
+	font-style: normal;
+	position: absolute;
+	bottom: 2em;
+	z-index:99;
+	padding:0 0.5em;
+}
+cite em{
+	float:right;
+	padding-right:1em;
+}
