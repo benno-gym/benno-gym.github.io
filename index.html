@@ -1,85 +1,542 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wunschgäste buchen | Diskrete Gäste für Hochzeit & Familienfeier</title>
-  <meta name="description" content="Wunschgäste harmonisieren Hochzeiten und Familienfeiern diskret: soziale Brückenbauer, Deeskalation, Eisbrecher mit Klasse und positive Stimmung für Ihre Feier.">
-  <meta name="keywords" content="Wunschgäste, Hochzeit Gäste buchen, Familienfeier harmonisieren, Deeskalation Feier, Konfliktmanagement Hochzeit, diskrete Gäste, soziale Brückenbauer">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://wunschgaeste.de/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="de_DE">
-  <meta property="og:title" content="Wunschgäste – Buchen Sie uns für Ihre Feier">
-  <meta property="og:description" content="Authentische Menschen mit sozialer Kompetenz, die Ihre Feier harmonisieren – diskret, natürlich und wirkungsvoll.">
-  <meta property="og:image" content="assets/hero-hochzeitsfeier-wunschgaeste.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="assets/wunschgaeste-logo.svg">
-  <link rel="preload" as="image" href="assets/hero-hochzeitsfeier-wunschgaeste.jpg">
-  <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Wunschgäste","url":"https://wunschgaeste.de/","email":"kontakt@wunschgaeste.de","telephone":"+49 163 39 36 512","address":{"@type":"PostalAddress","streetAddress":"Burkersdorfer Weg 19","postalCode":"01189","addressLocality":"Dresden","addressCountry":"DE"},"areaServed":"Deutschland","description":"Diskrete Wunschgäste für Hochzeiten und Familienfeiern: soziale Dynamik, Deeskalation, Eisbrecher und Stimmungsaufbau."}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ===================== SEO – Grundangaben ===================== -->
+<title>Wunschgäste buchen – harmonische Gäste für Hochzeit &amp; Familienfeier</title>
+<meta name="description" content="Wunschgäste sind gereifte, ausgeglichene Menschen, die als Gäste unter Gästen Ihre Hochzeit oder Familienfeier harmonisieren – diplomatisch, deeskalierend, diskret. Bundesweit buchbar. Jetzt unverbindlich anfragen.">
+<link rel="canonical" href="https://wunschgaeste.de/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="Wunschgäste – Britta Mickler">
+<meta name="theme-color" content="#e7bf6a">
+<meta name="format-detection" content="telephone=yes">
+
+<!-- Haupt- und Nebendomain -->
+<link rel="alternate" hreflang="de-DE" href="https://wunschgaeste.de/">
+<link rel="alternate" hreflang="x-default" href="https://wunschgaeste.de/">
+<meta name="geo.region" content="DE-SN">
+<meta name="geo.placename" content="Dresden">
+<meta name="geo.position" content="51.0117;13.6836">
+<meta name="ICBM" content="51.0117, 13.6836">
+
+<!-- ===================== Open Graph / Social ===================== -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Wunschgäste">
+<meta property="og:url" content="https://wunschgaeste.de/">
+<meta property="og:title" content="Wunschgäste buchen – harmonische Gäste für Hochzeit &amp; Familienfeier">
+<meta property="og:description" content="Keine Moderatoren. Keine Show. Echte Menschen, die auf Ihrer Feier für Ausgleich sorgen – diplomatisch, deeskalierend und diskret. Bundesweit buchbar.">
+<meta property="og:image" content="https://wunschgaeste.de/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Festlich gekleidete Gäste stoßen bei einer Hochzeitsfeier im Kerzenschein an.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wunschgäste buchen – harmonische Gäste für Hochzeit &amp; Familienfeier">
+<meta name="twitter:description" content="Echte Menschen, die auf Ihrer Feier für Ausgleich in zwischenmenschlichen Konstellationen sorgen. Bundesweit buchbar.">
+<meta name="twitter:image" content="https://wunschgaeste.de/assets/img/og-image.jpg">
+
+<!-- ===================== Icons ===================== -->
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- ===================== Ressourcen ===================== -->
+<!-- Schriften wie im Original: Bricolage Grotesque + Inter.
+     Zum Selbst-Hosten (ohne Google) siehe LIESMICH.md → fonts-selbst-hosten.sh -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Inter:wght@400..700&amp;display=swap">
+<link rel="preload" as="image" href="assets/img/hero.webp" type="image/webp" imagesrcset="assets/img/hero-1200.webp 1200w, assets/img/hero.webp 2400w" imagesizes="100vw">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- ===================== Strukturierte Daten ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://wunschgaeste.de/#website",
+      "url": "https://wunschgaeste.de/",
+      "name": "Wunschgäste",
+      "alternateName": ["Wunschgäste.de", "wunschgaeste.de", "wunschgäste.de"],
+      "inLanguage": "de-DE",
+      "publisher": { "@id": "https://wunschgaeste.de/#business" }
+    },
+    {
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": "https://wunschgaeste.de/#business",
+      "name": "Wunschgäste",
+      "alternateName": "Wunschgäste.de – Beratung, Coaching, Mediation, Konfliktmanagement",
+      "description": "Wunschgäste stellt gereifte, innerlich ausgeglichene und authentische Menschen, die als Gäste unter Gästen Hochzeiten und Familienfeiern harmonisieren – diplomatisch, deeskalierend und diskret.",
+      "url": "https://wunschgaeste.de/",
+      "sameAs": ["https://xn--wunschgste-r8a.de/"],
+      "image": "https://wunschgaeste.de/assets/img/og-image.jpg",
+      "email": "kontakt@wunschgaeste.de",
+      "telephone": "+491633936512",
+      "priceRange": "$$",
+      "founder": { "@type": "Person", "name": "Britta Mickler" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Burkersdorfer Weg 19",
+        "postalCode": "01189",
+        "addressLocality": "Dresden",
+        "addressRegion": "Sachsen",
+        "addressCountry": "DE"
+      },
+      "areaServed": { "@type": "Country", "name": "Deutschland" },
+      "knowsLanguage": "de-DE",
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wunschgäste für Hochzeiten", "serviceType": "Harmonisierende Gäste für Hochzeitsfeiern" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wunschgäste für Familienfeiern", "serviceType": "Harmonisierende Gäste für Familien- und Generationenfeiern" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Konfliktmanagement auf Feiern", "serviceType": "Deeskalation und Mediation bei Veranstaltungen" } }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wunschgaeste.de/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Sind Wunschgäste professionelle Tänzer?", "acceptedAnswer": { "@type": "Answer", "text": "Nein. Wir sind reife Menschen mit hoher sozialer Kompetenz. Tanzen ist ein Werkzeug, um Energie zu übertragen – nicht der eigentliche Zweck unserer Arbeit." } },
+        { "@type": "Question", "name": "Wie viele Wunschgäste empfehlen Sie?", "acceptedAnswer": { "@type": "Answer", "text": "Für 50–100 Gäste empfehlen wir 2 Wunschgäste. Für 100–200 Gäste sind es 4 Wunschgäste. Bei größeren Feiern beraten wir Sie individuell." } },
+        { "@type": "Question", "name": "Können wir die Wunschgäste vorher kennenlernen?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, selbstverständlich. Wir organisieren gerne ein persönliches Kennenlerngespräch vor der Veranstaltung – damit Vertrauen entsteht, bevor der besondere Tag kommt." } },
+        { "@type": "Question", "name": "Was passiert bei einer Absage?", "acceptedAnswer": { "@type": "Answer", "text": "Wir arbeiten mit fairen und flexiblen Stornierungsbedingungen. Alle Details werden transparent im Vertrag festgehalten." } },
+        { "@type": "Question", "name": "Sind Ihre Wunschgäste versichert?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. Wir sind haftpflichtversichert. Sie können mit einem professionellen und rechtlich abgesicherten Service rechnen." } },
+        { "@type": "Question", "name": "Wie diskret arbeiten Sie?", "acceptedAnswer": { "@type": "Answer", "text": "Wir agieren ausschließlich als Gäste unter Gästen. Ihre Gäste erleben Menschen, die positiv auf die Stimmung wirken – nicht professionelle Dienstleister." } }
+      ]
+    }
+  ]
+}
+</script>
 </head>
+
 <body>
-<header class="site-header" id="top">
-  <a href="#home" class="brand" aria-label="Wunschgäste Startseite">
-    <img src="assets/wg-f.avif" alt="" width="44" height="44" aria-hidden="true">
-    <span class="brand-text">
-      <strong>Wunschgäste</strong>
-      <small>Diskret. Warm. Verbindend.</small>
-    </span>
-  </a>
-  <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Navigation öffnen">☰</button>
-  <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
-    <a href="#home">Start</a><a href="#ueber-uns">Über uns</a><a href="#leistungen">Leistungen</a><a href="#werte">Werte</a><a href="#ablauf">Ablauf</a><a href="#faq">FAQ</a><a class="nav-cta" href="#kontakt">Kontakt</a>
-  </nav>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- Farbverläufe für die Icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="theme-accent-gradient-linear" x1="14.6447%" y1="14.6447%" x2="85.3553%" y2="85.3553%">
+      <stop offset="0%" stop-color="#da9b49"></stop>
+      <stop offset="99%" stop-color="#f3e38a"></stop>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Wunschgäste – zur Startseite">
+      <picture>
+        <source type="image/webp" srcset="assets/img/logo-268.webp 268w, assets/img/logo.webp 534w" sizes="68px">
+        <img src="assets/img/logo-268.png" srcset="assets/img/logo-268.png 268w, assets/img/logo.png 534w" sizes="68px"
+             width="534" height="430" decoding="async" fetchpriority="high"
+             alt="Wunschgäste – goldene venezianische Maske">
+      </picture>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation" aria-label="Menü öffnen">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav" id="hauptnavigation" aria-label="Hauptnavigation">
+      <a href="#home">Home</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#werte">Werte</a>
+      <a href="#ablauf">Ablauf</a>
+      <a class="nav-cta" href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
 </header>
-<main>
-<section id="home" class="hero section">
-  <div class="hero-image" role="img" aria-label="Elegante Hochzeitsfeier mit Gästen"></div>
-  <div class="container hero-copy">
-    <h1>Wunschgäste</h1>
-    <h2>Buchen Sie uns für Ihre Feier</h2>
-    <p class="lead">Wir sind die Gäste, die Ihre Feier harmonisieren. Gäste, die auf Ihrer Feier diplomatisch und deeskalierend wirken und das allgemeine Wohlbefinden fördern.</p>
-    <p><strong>Gereifte, innerlich ausgeglichene, authentische Menschen für Ihre Hochzeit &amp; Familienfeier</strong></p>
-    <p>Keine Moderatoren. Keine Show. Keine Stimmungsmacher. Keine Darsteller. Keine Partymacher. Keine Animateure. Echte Menschen, die auf Ihrer Feier für Ausgleich in zwischenmenschlichen Konstellationen sorgen. Menschen, welche die allgemeine Anspannung durch eigene natürliche Gelassenheit und innere Ruhe reduzieren.</p>
-    <div class="scenario-grid">
-      <article><em>Onkel Herbert erzählt ohne Ende unanständige Witze?</em><strong>Wir sind da.</strong></article>
-      <article><em>Tante Erna wird nach ein paar Sektchen sehr sentimental?</em><strong>Wir sind da.</strong></article>
-      <article><em>Cousine Marie traut sich nicht alleine auf die Feier und braucht eine sichere Gruppe?</em><strong>Wir sind da.</strong></article>
+
+<main id="inhalt">
+
+  <!-- ==================== HERO ==================== -->
+  <section id="home" aria-labelledby="titel-home">
+    <div class="hero-media">
+      <picture>
+        <source type="image/webp" srcset="assets/img/hero-1200.webp 1200w, assets/img/hero.webp 2400w" sizes="100vw">
+        <img src="assets/img/hero.jpg" srcset="assets/img/hero-1200.jpg 1200w, assets/img/hero.jpg 2400w" sizes="100vw"
+             width="2400" height="381" fetchpriority="high" decoding="async"
+             alt="Festlich gekleidete Hochzeitsgäste stoßen im warmen Kerzenschein mit Sekt an.">
+      </picture>
     </div>
-    <a class="btn" href="#kontakt">👉 Jetzt Kontakt aufnehmen</a>
+
+    <div class="wrap hero-body">
+      <h1 id="titel-home">Wunschgäste</h1>
+      <p class="hero-claim">Buchen Sie uns für Ihre Feier</p>
+
+      <p class="lead">Wir sind die Gäste, die Ihre Feier harmonisieren. Gäste, die auf Ihrer Feier diplomatisch und deeskalierend wirken und das allgemeine Wohlbefinden fördern.</p>
+
+      <p class="hero-strong">Gereifte, innerlich ausgeglichene, authentische Menschen für Ihre Hochzeit &amp; Familienfeier</p>
+
+      <p>Keine Moderatoren. Keine Show. Keine Stimmungsmacher. Keine Darsteller. Keine Partymacher. Keine Animatoren.<br>
+      Echte Menschen, die auf Ihrer Feier für Ausgleich in zwischenmenschlichen Konstellationen sorgen. Menschen, welche die allgemeine Anspannung durch eigene natürliche Gelassenheit und innere Ruhe reduzieren.</p>
+
+      <div class="case-grid">
+        <div class="case">
+          <p class="q">Onkel Herbert erzählt ohne Ende unanständige Witze?</p>
+          <p class="a">Wir sind da.</p>
+        </div>
+        <div class="case">
+          <p class="q">Tante Erna wird nach ein paar Sektchen sehr sentimental?</p>
+          <p class="a">Wir sind da.</p>
+        </div>
+        <div class="case">
+          <p class="q">Cousine Marie traut sich nicht alleine auf die Feier und braucht eine sichere Gruppe?</p>
+          <p class="a">Wir sind da.</p>
+        </div>
+      </div>
+
+      <p><a class="btn" href="#kontakt">👉 Jetzt Kontakt aufnehmen</a></p>
+    </div>
+  </section>
+
+  <!-- ==================== ÜBER UNS ==================== -->
+  <section id="ueber-uns" aria-labelledby="titel-ueber">
+    <div class="wrap">
+      <h2 id="titel-ueber">Über Wunschgäste – Wer wir sind</h2>
+      <p>Wir stellen keine Moderatoren, DJs oder Zeremonienmeister. Wir sind authentische Menschen mit natürlicher Gelassenheit und innerer Ruhe, die das positive Klima Ihrer Feier von innen heraus fördern. Keine Darsteller. Keine Show. Echte Präsenz.</p>
+
+      <div class="compare">
+        <div>
+          <h3>Traditionelle Agenturen</h3>
+          <ul>
+            <li>Stehen auf der Bühne</li>
+            <li>Führen ein Programm durch</li>
+            <li>Lenken Aufmerksamkeit auf sich</li>
+            <li>Performance</li>
+          </ul>
+        </div>
+        <div class="is-accent">
+          <h3>Wunschgäste</h3>
+          <ul>
+            <li>Mischen sich unter Gäste</li>
+            <li>Beteiligen sich aktiv am Programm</li>
+            <li>Lenken Fokus auf Ihre Gäste</li>
+            <li>Echte Präsenz</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="bar-card">
+          <h3>Regulierende Wirkung</h3>
+          <p>Wir wirken als Anker der Sicherheit und helfen dabei, Menschen und Situationen sanft zu harmonisieren.</p>
+        </div>
+        <div class="bar-card">
+          <h3>Stabilität</h3>
+          <p>Wir bleiben ruhig und gefasst, handeln überlegt und bringen innere Ruhe in jede Situation.</p>
+        </div>
+        <div class="bar-card">
+          <h3>Freundlichkeit</h3>
+          <p>Wir treten in natürliche und authentische Interaktion mit Ihren Gästen – offen, warm und unaufdringlich.</p>
+        </div>
+        <div class="bar-card">
+          <h3>Nutzen für die Gruppe</h3>
+          <p>Wir sorgen für ein positives Feierklima und senken das allgemeine Stressniveau spürbar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== LEISTUNGEN ==================== -->
+  <section id="leistungen" aria-labelledby="titel-leistungen">
+    <div class="wrap">
+      <h2 id="titel-leistungen">Was wir tun</h2>
+      <p>Wir harmonisieren Ihre Feier. Diskret, wirkungsvoll und mit echter menschlicher Wärme. Wir agieren dort, wo soziale Spannung entsteht – und verwandeln sie in Verbindung.</p>
+
+      <div class="grid-4">
+        <article class="service">
+          <picture>
+            <source type="image/webp" srcset="assets/img/bruecke-300.webp 300w, assets/img/bruecke-600.webp 600w" sizes="(max-width:760px) 200px, 230px">
+            <img src="assets/img/bruecke-600.jpg" srcset="assets/img/bruecke-300.jpg 300w, assets/img/bruecke-600.jpg 600w" sizes="(max-width:760px) 200px, 230px"
+                 width="600" height="600" loading="lazy" decoding="async"
+                 alt="Großeltern, Eltern und ein Teenager lachen gemeinsam an einer festlich gedeckten Tafel.">
+          </picture>
+          <h3>Soziale Brückenbauer</h3>
+          <p>Wir helfen dabei, dass sich alle wohlfühlen – egal ob Großeltern, Teenager oder internationale Gäste.</p>
+        </article>
+        <article class="service">
+          <picture>
+            <source type="image/webp" srcset="assets/img/konflikt-300.webp 300w, assets/img/konflikt-600.webp 600w" sizes="(max-width:760px) 200px, 230px">
+            <img src="assets/img/konflikt-600.jpg" srcset="assets/img/konflikt-300.jpg 300w, assets/img/konflikt-600.jpg 600w" sizes="(max-width:760px) 200px, 230px"
+                 width="600" height="600" loading="lazy" decoding="async"
+                 alt="Eine Frau vermittelt ruhig zwischen zwei Gästen an einer Hochzeitstafel.">
+          </picture>
+          <h3>Konfliktmanagement</h3>
+          <p>Wir nehmen Spannungen zwischen Gästen frühzeitig wahr und kanalisieren sie behutsam in positive Energie – bevor sie die Feier belasten.</p>
+        </article>
+        <article class="service">
+          <picture>
+            <source type="image/webp" srcset="assets/img/eisbrecher-300.webp 300w, assets/img/eisbrecher-600.webp 600w" sizes="(max-width:760px) 200px, 230px">
+            <img src="assets/img/eisbrecher-600.jpg" srcset="assets/img/eisbrecher-300.jpg 300w, assets/img/eisbrecher-600.jpg 600w" sizes="(max-width:760px) 200px, 230px"
+                 width="600" height="600" loading="lazy" decoding="async"
+                 alt="Eine lachende Frau im Abendkleid kommt an der Festtafel mit anderen Gästen ins Gespräch.">
+          </picture>
+          <h3>Eisbrecher mit Klasse</h3>
+          <p>Wir initiieren Gespräche und lockern stockende Situationen auf – diskret, natürlich und mit echtem Interesse an den Menschen.</p>
+        </article>
+        <article class="service">
+          <picture>
+            <source type="image/webp" srcset="assets/img/energie-300.webp 300w, assets/img/energie-600.webp 600w" sizes="(max-width:760px) 200px, 230px">
+            <img src="assets/img/energie-600.jpg" srcset="assets/img/energie-300.jpg 300w, assets/img/energie-600.jpg 600w" sizes="(max-width:760px) 200px, 230px"
+                 width="600" height="600" loading="lazy" decoding="async"
+                 alt="Ein Brautpaar tanzt auf der Tanzfläche, weitere Gäste tanzen im Hintergrund mit.">
+          </picture>
+          <h3>Energie-Transfer</h3>
+          <p>Wir sind bei Bedarf die Ersten, die tanzen, lachen und feiern – und laden so andere Gäste ein, es uns gleichzutun. Freude ist ansteckend.</p>
+        </article>
+      </div>
+
+      <h2 class="h-sub">Perfekt für …</h2>
+      <div class="grid-3">
+        <div class="chip">Hochzeiten</div>
+        <div class="chip">Familienfeiern</div>
+        <div class="chip">Gemischte Familien</div>
+        <div class="chip">Generationen-Feiern</div>
+        <div class="chip">Schüchterne Gäste</div>
+        <div class="chip">Internationale Gäste</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WERTE ==================== -->
+  <section id="werte" aria-labelledby="titel-werte">
+    <div class="wrap">
+      <h2 id="titel-werte">Wer steckt dahinter?</h2>
+      <p>Wir als Ihre Wunschgäste sind keine Schauspieler, sondern echte Menschen mit hoher sozialer und emotionaler Intelligenz. Gereift, sicher im Umgang mit anderen und mit feinem Gespür für Situationen.</p>
+
+      <h2 class="h-sub">Worauf wir achten</h2>
+      <div class="grid-3">
+        <div class="chip chip-bar">Emotionale Intelligenz</div>
+        <div class="chip chip-bar">Soziale Erfahrung</div>
+        <div class="chip chip-bar">Diskretion</div>
+        <div class="chip chip-bar">Flexibilität</div>
+        <div class="chip chip-bar">Natürliche Ausstrahlung</div>
+        <div class="chip chip-bar">Echte Präsenz</div>
+      </div>
+
+      <h2 class="h-sub">Was uns auszeichnet</h2>
+      <div class="grid-4">
+        <div class="feature">
+          <svg viewBox="-16.621999740600586 -40.8321533203125 1057.0489501953125 1105.8321533203125" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="url(#theme-accent-gradient-linear)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 28.378,1019.708 C 28.624,1003.884 30.423,982.98 33.256,963.74 C 37.428,943.569 42.197,925.385 49.27,902.924 C 56.965,882.698 64.087,866.775 72.76,850.0 C 82.334,833.914 102.255,806.142 132.712,773.189 C 157.55,750.064 173.486,737.404 190.612,725.183 C 208.672,713.415 228.545,701.766 269.131,681.398 C 309.926,664.956 353.015,651.388 396.445,641.35 Q 442.059,634.208 491.173,630.095" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 603.071,636.481 C 646.075,644.587 686.386,655.179 722.689,667.5 C 760.263,683.348 792.957,700.037 829.338,722.223 C 862.415,746.416 885.249,767.074 911.785,794.3 C 932.068,819.585 949.894,847.432 965.473,878.564 C 972.486,896.037 978.606,914.012 988.638,952.348 C 994.241,988.451 995.466,1005.929 995.426,1020.0" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><circle cx="511.94182632119856" cy="267.3266469509426" r="263.15881721357215" data-line="0.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 491.173,630.095 L 603.071,636.481" data-line="3.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/></g></svg>
+          <h3>Soziale Dynamik</h3>
+          <p>Wir lesen Gruppenstimmungen und verbinden Menschen, bevor Distanz entsteht.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="72.18199920654297 -41 880.3219604492188 1106" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="url(#theme-accent-gradient-linear)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 906.838,154.795 C 853.002,149.242 816.505,143.249 789.857,137.877 C 764.365,131.806 736.704,124.141 683.22,105.961 C 643.199,89.001 616.196,75.543 597.187,65.021 Q 564.936,43.622 511.031,4.0" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 906.838,154.795 C 907.508,173.088 907.986,286.267 906.675,337.891 L 904.817,376.281" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 898.26,443.732 C 892.195,486.465 883.971,527.551 873.581,567.37 C 860.359,608.244 842.336,652.373 822.72,692.82 C 805.875,723.217 785.157,755.966 760.357,790.56 C 731.444,826.34 704.938,855.9 664.635,896.648 C 637.325,921.807 605.804,948.393 540.138,998.964 L 511.624,1020.0" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 511.624,1020.0 C 432.018,958.354 400.594,932.756 364.716,900.99 C 328.344,865.573 294.93,829.073 265.701,793.177 Q 239.571,756.734 214.201,716.597" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 511.031,4.0 C 458.444,44.096 422.132,67.597 404.098,77.576 C 376.777,91.154 336.243,107.947 309.242,117.598 C 279.531,126.972 254.974,133.578 227.993,139.708 Q 178.413,148.322 117.182,154.304" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 511.624,1020.0 L 511.031,4.0" data-line="2.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 214.201,716.597 C 160.27703779289584,626.4416188310851 139.07701308430015,536.7652369591717 126.701,446.889" data-line="5.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 904.817,376.281 L 898.26,443.732" data-line="5.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 126.701,446.889 L 117.182,154.304" data-line="6.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/></g></svg>
+          <h3>Deeskalation</h3>
+          <p>Konflikte werden ruhig erkannt und unauffällig entschärft.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="-41 138.9759979248047 1106 746.0479736328125" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="url(#theme-accent-gradient-linear)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 305.846,228.951 C 241.91,415.282 233.407,432.563 225.12,443.894 C 220.244,449.133 209.334,458.313 203.634,461.984 Q 192.309,467.533 4.0,536.079" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 654.416,320.543 L 654.471,183.976" data-line="0.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 539.264,300.724 L 766.431,300.679" data-line="1.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 654.386,300.321 L 654.448,292.892" data-line="2.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 654.448,292.892 L 654.452,304.673" data-line="3.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 654.452,304.673 L 658.006,300.697" data-line="4.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 654.416,320.543 L 654.433,409.33" data-line="5.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 606.341,533.312 L 428.477,470.532" data-line="8.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 606.341,533.312 L 427.761,598.846" data-line="9.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 305.444,840.024 L 245.636,662.978" data-line="10.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 871.304,479.884 L 871.297,777.147" data-line="20.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 724.55,628.856 L 1020.0,628.881" data-line="21.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 428.477,470.532 C 394.2383386538278,458.6043795368741 374.64701866718144,437.95017602579605 361.134,389.225" data-line="22.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 361.134,389.225 L 305.846,228.951" data-line="23.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 427.761,598.846 C 383.95575259292997,618.5137009974588 378.43949903202355,629.0057480078187 360.863,682.309" data-line="24.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 360.863,682.309 L 305.444,840.024" data-line="25.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 245.58528853992414,662.993787997116 A 97.6882516913581,97.6882516913581 0 0,0 171.47136420949033,596.2411654505139" data-line="26.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 171.622,595.488 L 4.0,536.079" data-line="27.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/></g></svg>
+          <h3>Stimmung</h3>
+          <p>Wir bringen Leichtigkeit hinein und reduzieren Spannungen.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="-41 -4.9420013427734375 1106 1033.884033203125" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="url(#theme-accent-gradient-linear)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 295.462,248.122 C 329.838,234.5 362.513,223.991 394.757,215.884 C 432.69,208.994 467.354,205.083 505.363,204.182 Q 540.839,205.092 575.972,208.599" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 778.344,739.071 C 809.159,721.095 838.02,701.177 872.737,673.619 C 901.778,647.084 934.116,614.116 963.424,580.897 Q 991.014,546.26 1020.0,506.025" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 192.132,306.724 C 169.131,324.106 141.923,346.822 120.411,366.526 C 98.862,388.095 74.14,415.132 50.984,442.361 Q 29.616,469.417 4.0,503.998" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 675.369,783.762 C 651.978,791.06 630.157,796.609 608.361,801.161 C 581.142,805.558 537.557,809.702 488.672,809.598 C 466.939,807.917 439.763,804.663 412.59,800.164 C 390.801,795.615 347.405,783.756 304.273,767.869 C 282.305,758.204 260.501,747.462 238.954,735.687 C 216.996,722.436 179.212,696.5 157.797,679.851 C 141.184,665.754 119.735,646.14 98.632,625.31 C 78.266,603.812 59.231,582.241 37.597,555.492 C 21.055,532.979 10.447,516.825 4.0,503.998" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 506.515,661.955 C 444.262,621.463 420.328,600.037 401.47,579.109 L 353.483,516.937" data-line="nan" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 7.794,40.058 L 947.984,983.942" data-line="0.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 541.761,398.476 L 480.1,354.286" data-line="9.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 543.199,403.009 C 542.8786667830938,399.3544999223043 541.2308332041285,397.9560000319833 541.761,398.476" data-line="10.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 543.199,403.009 L 547.189,402.739" data-line="11.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 547.189,402.739 L 548.08,406.547" data-line="12.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 548.08,406.547 L 551.235,405.932" data-line="13.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 551.235,405.932 L 551.628,411.391" data-line="14.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 551.6279999709599,411.39099990631047 A 8.521729488256888,8.521729488256888 0 0,0 555.20299992777,409.20399992949115" data-line="15.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 555.203,409.204 L 556.573,411.033" data-line="16.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 556.573,411.033 L 556.456,412.711" data-line="17.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 556.456,412.711 L 554.943,413.811" data-line="18.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 554.943,413.811 L 556.932,414.716" data-line="19.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 556.932,414.716 L 558.657,414.468" data-line="20.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 558.657,414.468 L 560.136,413.321" data-line="21.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 560.136,413.321 L 561.588,415.314" data-line="22.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 561.588,415.314 L 562.26,417.799" data-line="23.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 562.26,417.799 L 560.685,418.012" data-line="24.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 560.685,418.012 L 564.834,419.274" data-line="25.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 564.834,419.274 C 572.0019801250825,425.20736015801396 583.0840452767801,434.3348238595439 587.709,440.228" data-line="26.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 587.709,440.228 L 589.596,444.244" data-line="27.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 589.596,444.244 L 589.148,446.447" data-line="28.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 589.14799999999,446.44700000005395 A 17.681701217930218,17.681701217930218 0 0,1 594.2029999999844,448.2080000000294" data-line="29.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 594.203,448.208 L 596.045,449.86" data-line="30.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 596.045,449.86 L 597.192,451.727" data-line="31.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 597.192,451.727 L 597.504,454.185" data-line="32.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 597.504,454.185 L 600.17,452.925" data-line="33.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 600.17,452.925 L 600.698,455.415" data-line="34.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 600.6980000002208,455.4150000001418 A 3.213278767849321,3.213278767849321 0 0,0 601.7480000001001,459.90599999983345" data-line="35.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 600.283,457.924 L 602.22,457.945" data-line="36.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 601.748,459.906 L 604.379,457.765" data-line="37.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 604.379,457.765 L 606.024,459.74" data-line="38.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 606.024,459.74 L 605.022,461.094" data-line="39.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 605.022,461.094 L 604.19,463.21" data-line="40.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 604.19,463.21 L 609.314,463.691" data-line="41.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 609.314,463.691 L 608.923,466.75" data-line="42.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 608.923,466.75 L 612.544,467.701" data-line="43.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 612.544,467.701 L 612.493,471.61" data-line="44.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 612.493,471.61 L 615.267,472.282" data-line="45.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 615.267,472.282 L 617.302,473.802" data-line="46.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 661.475,534.413 L 617.302,473.802" data-line="47.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 576.0130194703665,208.29894476672746 A 574.6719878754699,574.6719878754699 0 0,1 889.2631505377349,356.60688861499517" data-line="53.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/><path d="M 889.655,356.185 L 1020.0,506.025" data-line="54.0" stroke-width="45.0" fill="none" stroke="url(#theme-accent-gradient-linear)"/></g></svg>
+          <h3>Diskretion</h3>
+          <p>Unsere Wirkung ist deutlich, unser Auftreten bleibt dezent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABLAUF ==================== -->
+  <section id="ablauf" aria-labelledby="titel-ablauf">
+    <div class="wrap">
+      <h2 id="titel-ablauf">Der Ablauf</h2>
+      <p>Einfach, diskret und effektiv. Von der ersten Kontaktaufnahme bis zum gemeinsamen Feedback nach der Veranstaltung begleiten wir Sie Schritt für Schritt – transparent und verlässlich.</p>
+
+      <div class="grid-3 steps">
+        <div class="step">
+          <span class="step-icon"><svg viewBox="-33.89883804321289 -41.22371482849121 1092.3233642578125 1105.5402221679688" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="rgb(0, 0, 0)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 88.533,71.239 C 63.03,94.131 45.022,113.387 31.401,132.222 C 25.853,142.013 19.586,155.993 16.456,165.227 C 13.05,179.463 10.49,203.071 11.229,231.708 C 15.507,269.871 22.444,303.153 31.319,331.947 C 44.407,365.2 60.272,398.7 81.182,436.87 C 104.808,475.218 134.279,518.702 166.057,561.788" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 526.861,909.042 C 565.272,934.059 608.081,958.583 651.308,980.043 C 689.587,996.164 727.76,1008.703 761.401,1016.298 C 780.496,1018.9 794.867,1019.895 818.77,1018.988 C 842.792,1014.308 857.183,1009.523 866.867,1005.404 C 881.656,997.652 891.396,991.499 910.275,976.907 C 924.654,963.705 942.976,944.685 979.639,901.007 C 994.436,882.167 1004.447,867.765 1009.498,858.162 C 1012.585,848.486 1013.646,838.727 1013.387,833.927 C 1009.585,819.275 1004.745,809.619 993.598,795.364 C 950.91,754.293 845.463,656.299 826.471,641.313 C 816.797,635.535 807.222,631.253 793.139,627.659 C 778.899,627.054 764.962,629.939 755.65,634.614 C 741.278,645.755 665.09,716.766 650.503,726.734 C 640.392,731.112 630.422,733.09 625.509,733.093 C 615.704,731.191 605.767,727.09 591.713,717.601 L 568.186,696.212" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 312.128,434.997 C 300.329,420.613 295.364,410.828 293.982,405.973 C 293.295,396.383 294.017,391.606 297.451,382.0 C 303.408,372.268 311.046,362.86 393.37,272.558 C 403.288,258.277 407.796,248.286 409.215,243.316 C 410.033,238.375 409.887,228.682 407.524,219.069 C 403.222,209.358 393.323,195.213 371.637,171.139" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 166.057,561.788 C 262.16848012409304,688.435678659384 401.75340173742717,824.4680499330136 526.861,909.042" data-line="1.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 568.186,696.212 L 312.128,434.997" data-line="3.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 371.637,171.139 L 241.677,32.789" data-line="5.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 241.677,32.789 C 187.7841806164837,-32.552347694854994 145.03325844339136,26.72299370557391 88.533,71.239" data-line="6.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/></g></svg></span>
+          <h3>Anfrage</h3>
+          <p>Sie kontaktieren uns mit Details zu Ihrer Veranstaltung (Datum, Ort, Gästezahl, Besonderheiten).</p>
+        </div>
+        <div class="step">
+          <span class="step-icon"><svg viewBox="-41.08098292350769 16.090999603271484 1106.2615356445312 991.8179931640625" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="rgb(0, 0, 0)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 442.487,626.982 C 442.696,703.398 444.722,724.652 449.152,741.856 C 454.272,754.573 464.024,771.71 473.969,784.678 C 486.329,797.108 499.078,807.112 516.088,816.931 C 533.141,823.622 545.993,826.81 558.794,828.499 L 618.778,829.291" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 881.745,412.173 L 740.161,411.923" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 564.494,412.497 C 551.705,413.764 534.762,417.578 517.487,424.224 L 504.694,431.111" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 504.694,431.111 C 491.922,440.0 483.479,447.225 468.531,463.604 C 457.233,481.019 453.082,489.57 448.341,502.292 C 444.468,519.403 442.839,536.274 442.487,626.982" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 754.891,227.574 C 754.47,206.097 752.104,188.95 747.553,171.787 C 740.668,154.515 731.437,137.58 718.841,120.128 C 703.201,103.589 690.091,92.655 677.252,83.911 C 660.143,74.833 642.88,68.157 625.797,63.844 C 612.931,62.021 600.199,61.255 535.887,61.145" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 171.449,61.091 C 154.316,61.435 138.99,63.011 124.542,66.0 C 107.384,71.363 91.208,78.552 77.861,86.221 C 66.594,94.109 54.251,104.715 42.957,116.679 C 33.267,129.283 25.237,142.147 18.507,155.763 C 12.489,171.459 8.196,187.129 5.408,203.691 L 4.196,220.722" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 894.7639612718621,829.5606551863193 A 129.18015148872556,129.18015148872556 0 0,0 1020.1805423260082,702.057649733164" data-line="0.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 894.769,829.734 L 893.854,962.909" data-line="1.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 752.074,829.887 L 756.714,830.677" data-line="3.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 756.714,830.677 L 761.28,832.366" data-line="4.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 761.28,832.366 L 765.678,835.035" data-line="5.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 765.678,835.035 L 893.854,962.909" data-line="6.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 755.154,411.955 L 754.891,227.574" data-line="8.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 323.633,619.112 L 169.047,775.171" data-line="9.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 323.633,619.112 L 326.459,617.292" data-line="10.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 326.459,617.292 L 329.679,615.801" data-line="11.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 329.679,615.801 L 333.079,614.92" data-line="12.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 333.079,614.92 L 335.836,614.539" data-line="13.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 335.836,614.539 L 419.83,614.324" data-line="14.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 419.83,614.324 L 424.02,615.165" data-line="15.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 424.02,615.165 L 442.507,630.695" data-line="16.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 169.047,775.171 L 165.71,614.321" data-line="17.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1019.89,702.054 L 1016.571,509.102" data-line="18.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1016.6308697678819,509.08637397676046 A 129.54873524340664,129.54873524340664 0 0,0 881.7766366226982,412.6030466583503" data-line="19.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 618.778,829.291 L 752.074,829.887" data-line="22.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 535.887,61.145 L 171.449,61.091" data-line="24.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 740.161,411.923 L 564.494,412.497" data-line="24.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 4.077,291.592 L 4.12,452.247" data-line="26.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 3.919017031765094,452.24742892143973 A 163.17359202624837,163.17359202624837 0 0,0 165.70365241976572,615.0668815425073" data-line="27.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 4.196,220.722 L 4.077,291.592" data-line="29.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/></g></svg></span>
+          <h3>Beratung</h3>
+          <p>Wir besprechen Ihre Erwartungen und stimmen uns auf Ihre Bedürfnisse ab.</p>
+        </div>
+        <div class="step">
+          <span class="step-icon"><svg viewBox="-12.918998718261719 -40.992000102996826 1049.7741088867188 1105.9650268554688" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="rgb(0, 0, 0)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 53.097,40.117 C 42.79,56.312 38.523,66.196 35.724,75.152 Q 32.662,92.382 32.081,114.818" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 410.501,160.906 C 398.61,157.879 389.101,157.362 296.438,159.381 C 202.3,159.582 187.711,160.64 177.781,164.125 C 172.934,167.366 168.578,171.652 165.236,176.453 C 162.907,181.523 161.518,186.493 160.387,196.304" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 161.258,384.314 C 162.46,398.953 165.362,409.049 171.494,419.032 C 175.902,423.425 180.702,426.902 190.669,431.0 C 200.634,432.271 225.422,432.643 383.95,431.479 C 393.782,431.132 403.992,429.598 414.6,425.108 C 419.45,421.444 427.04,412.026 431.492,401.364 L 433.459,386.037" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 433.408,212.578 C 432.633,197.683 431.02,187.801 427.061,177.422 L 418.603,163.836" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 32.094,917.471 C 32.518,930.25 34.419,943.114 37.206,953.553 C 41.543,964.279 46.937,974.283 53.67,983.938 C 62.416,993.407 69.92,999.74 80.118,1006.588 C 89.082,1011.067 99.807,1015.144 108.976,1017.477 Q 126.623,1019.794 166.306,1019.961" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 991.627,101.731 C 990.244,81.748 987.724,71.629 983.797,61.235 C 979.033,51.843 973.873,44.016 963.584,32.095 C 956.078,25.363 948.327,19.753 938.197,14.031 C 928.851,10.182 916.599,6.559 901.282,4.431 L 866.563,4.008" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 125.989,4.169 C 105.777,6.684 93.041,10.674 85.09,14.103 C 77.02,18.583 67.219,25.721 55.917,36.425 L 53.097,40.117" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 220.246,756.185 L 853.232,756.198" data-line="0.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 220.246,566.343 L 850.468,566.179" data-line="1.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 410.501,160.906 L 418.603,163.836" data-line="5.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 534.041,261.033 L 854.883,261.08" data-line="7.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 289.817,355.96 L 369.539,244.961" data-line="8.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 233.461,299.908 L 289.817,355.96" data-line="9.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 32.081,114.818 L 32.094,917.471" data-line="10.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 166.306,1019.961 L 882.399,1019.972" data-line="11.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 882.4817895342378,1019.2802726439445 A 97.75626164802802,97.75626164802802 0 0,0 990.6285487609682,906.7795789336858" data-line="12.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 160.387,196.304 L 161.258,384.314" data-line="12.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 991.814,906.59 L 991.627,101.731" data-line="13.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 433.459,386.037 L 433.408,212.578" data-line="14.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 866.563,4.008 L 125.989,4.169" data-line="18.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/></g></svg></span>
+          <h3>Vorbereitung</h3>
+          <p>Wir erhalten alle relevanten Informationen über Ihre Gäste und den Ablauf.</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="step">
+          <span class="step-icon"><svg viewBox="-41 -20.12700080871582 1106 1064.2540283203125" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="rgb(0, 0, 0)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 352.886,357.891 C 358.564,354.136 363.884,349.236 368.346,343.818 Q 373.298,335.603 398.245,271.915" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 482.096,50.781 L 487.762,38.763" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1012.555,414.532 Q 1004.401,421.689 927.433,481.809" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 781.13,596.45 C 766.73,608.748 760.042,616.187 754.891,625.022 C 751.638,634.116 750.493,643.73 751.223,651.79 L 759.739,681.012" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 843.03,954.32 L 845.232,966.261" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 796.312,992.376 L 708.59,930.617" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 566.086,830.632 C 541.602,814.111 528.246,808.259 517.74,806.094 C 508.231,805.29 500.796,805.825 492.077,808.069" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 195.896,995.586 L 206.8,999.127" data-line="0.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 195.896,995.586 L 192.959,994.082" data-line="1.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 192.959,994.082 L 189.912,992.004" data-line="2.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 189.912,992.004 L 186.483,988.908" data-line="3.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 186.483,988.908 L 183.311,985.377" data-line="4.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 183.311,985.377 L 180.715,981.58" data-line="5.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 180.715,981.58 L 179.017,978.084" data-line="6.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 179.017,978.084 L 177.942,974.686" data-line="7.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 177.94200004627382,974.6859999890956 A 41.16116651032514,41.16116651032514 0 0,1 177.00300004816543,968.851999995763" data-line="8.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 177.003,968.852 L 176.945,966.136" data-line="9.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 176.945,966.136 L 273.29,643.869" data-line="10.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 273.29429049405996,643.8688974682524 A 39.6035609667032,39.6035609667032 0 0,0 271.2889204766156,632.33835416837" data-line="11.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 271.293,632.337 L 269.721,628.281" data-line="12.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 269.721,628.281 L 9.918,413.251" data-line="13.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 9.918,413.251 L 7.988,410.611" data-line="14.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 7.988,410.611 L 6.457,407.718" data-line="15.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 6.457,407.718 L 5.072,403.881" data-line="16.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 5.072,403.881 L 4.215,399.499" data-line="17.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 4.215,399.499 L 4.0,394.546" data-line="18.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 4.0,394.546 L 4.528,389.901" data-line="19.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 4.528,389.901 L 5.599,385.587" data-line="20.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 5.599,385.587 L 6.98,382.088" data-line="21.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 6.98,382.088 L 8.481,379.221" data-line="22.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 8.481,379.221 L 10.325,376.664" data-line="23.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 10.325,376.664 L 12.328,374.406" data-line="24.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 12.328,374.406 L 14.772,372.109" data-line="25.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 14.772,372.109 L 17.123,370.273" data-line="26.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 17.123,370.273 L 19.895,368.541" data-line="27.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 19.895,368.541 Q 22.596000000674053,367.1439999969961 26.005,366.007" data-line="28.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 26.005,366.007 Q 29.324499949778673,365.06450012671075 31.65,364.712" data-line="29.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 31.65,364.712 L 352.886,357.891" data-line="30.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 487.762,38.763 L 490.125,35.471" data-line="32.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 490.125,35.471 L 492.984,32.476" data-line="33.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 492.984,32.476 L 496.301,29.818" data-line="34.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 496.301,29.818 Q 499.98099999402825,27.511999995519744 502.757,26.386" data-line="35.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 502.757,26.386 L 505.607,25.513" data-line="36.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 505.607,25.513 L 508.021,25.07" data-line="37.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 508.021,25.07 L 510.901,24.873" data-line="38.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 510.901,24.873 L 513.949,25.131" data-line="39.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 513.949,25.131 L 517.881,26.008" data-line="40.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 517.881,26.008 L 522.252,27.812" data-line="41.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 522.252,27.812 L 526.888,30.585" data-line="42.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 526.888,30.585 L 530.904,33.969" data-line="43.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 530.904,33.969 L 534.069,37.59" data-line="44.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 534.069,37.59 L 536.272,41.085" data-line="45.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 536.272,41.085 L 644.152,319.98" data-line="46.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 999.329,366.733 L 1001.724,367.796" data-line="47.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1001.724,367.796 L 1004.45,369.308" data-line="48.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1004.45,369.308 L 1006.995,371.047" data-line="49.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1006.995,371.047 L 1009.809,373.439" data-line="50.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1009.809,373.439 L 1012.324,376.191" data-line="51.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1012.324,376.191 L 1014.784,379.463" data-line="52.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1014.784,379.463 L 1016.76,382.972" data-line="53.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1016.76,382.972 L 1018.26,386.484" data-line="54.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1018.26,386.484 L 1019.295,390.012" data-line="55.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1019.295,390.012 L 1019.819,393.194" data-line="56.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1019.819,393.194 L 1020.0,396.025" data-line="57.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1020.0,396.025 L 1019.718,398.918" data-line="58.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1019.718,398.918 Q 1019.2509992554187,401.7520007687851 1017.928,405.482" data-line="59.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1017.928,405.482 L 1016.404,408.882" data-line="60.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1016.404,408.882 L 1014.708,411.847" data-line="61.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 1014.708,411.847 L 1012.555,414.532" data-line="62.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 845.232,966.261 L 845.205,969.015" data-line="64.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 845.2049999900555,969.014999999051 A 40.163914858173825,40.163914858173825 0 0,1 844.063999990388,975.4219999974704" data-line="65.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 844.064,975.422 L 842.812,978.992" data-line="66.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 842.812,978.992 L 841.339,982.198" data-line="67.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 841.339,982.198 L 839.367,985.128" data-line="68.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 839.367,985.128 L 837.26,987.569" data-line="69.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 837.26,987.569 L 834.62,990.059" data-line="70.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 834.62,990.059 L 832.074,992.019" data-line="71.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 832.074,992.019 L 829.208,993.795" data-line="72.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 829.208,993.795 L 826.678,995.041" data-line="73.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 826.678,995.041 L 823.866,996.093" data-line="74.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 823.866,996.093 L 821.433,996.758" data-line="75.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 821.433,996.758 C 818.1539466046744,997.4283506455791 816.5760553046066,997.5241541055599 813.351,997.536" data-line="76.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 813.351,997.536 L 810.474,997.234" data-line="77.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 810.474,997.234 L 806.863,996.512" data-line="78.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 806.863,996.512 L 803.035,995.367" data-line="79.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 803.0350000536416,995.3669998446458 A 42.77041310166623,42.77041310166623 0 0,1 796.3120000812829,992.3759998528691" data-line="80.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 492.077,808.069 L 206.8,999.127" data-line="82.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 644.152,319.98 C 660.4901352542814,367.87704007699415 706.4096939335091,365.8553697782183 731.703,364.11" data-line="83.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 398.245,271.915 L 482.096,50.781" data-line="83.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 731.703,364.11 L 999.329,366.733" data-line="84.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 927.433,481.809 L 781.13,596.45" data-line="86.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 759.739,681.012 L 843.03,954.32" data-line="88.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 708.59,930.617 L 566.086,830.632" data-line="91.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/></g></svg></span>
+          <h3>Durchführung</h3>
+          <p>Wir mischen uns unter Ihre Gäste – unauffällig, aber wirkungsvoll.</p>
+        </div>
+        <div class="step">
+          <span class="step-icon"><svg viewBox="-41.07916235923767 86.43800354003906 1105.70654296875 850.1845703125" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" overflow="visible"><g fill="none" stroke="rgb(0, 0, 0)" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"><path d="M 174.541,654.119 C 203.193,667.574 228.987,677.62 257.606,686.505 C 285.3,693.071 316.151,698.094 344.281,700.717 C 371.09,701.359 400.606,700.148 428.519,697.121 C 459.541,691.677 487.629,684.776 519.595,674.489 C 549.928,662.031 574.482,649.695 599.576,634.61 C 620.715,619.59 641.794,601.976 660.536,583.557 C 678.004,563.316 691.848,543.988 703.54,524.236 C 714.69,500.414 722.438,477.563 727.738,454.27 C 730.452,431.164 730.748,403.583 728.382,379.954 C 723.4,356.274 716.325,333.957 706.496,311.126 C 692.721,286.482 679.44,267.306 663.582,248.559 C 633.826,219.818 608.427,200.547 581.905,184.067 C 550.993,168.542 516.525,155.083 482.228,145.031 C 447.094,137.738 404.308,132.597 366.788,131.438 C 338.135,132.513 295.034,137.279 256.489,145.058 C 223.897,154.622 191.064,167.298 160.44,182.431 C 129.499,201.49 102.35,222.242 80.519,242.484 C 59.092,267.043 42.61,290.791 28.336,317.273 C 18.114,343.379 10.736,372.706 7.611,399.463 C 7.789,432.622 11.42,459.881 19.492,489.831 C 31.535,518.612 45.408,543.143 60.775,564.67 L 85.729,593.403" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 793.48,363.896 C 811.311,368.514 832.639,375.736 853.966,384.458 C 870.307,392.299 886.517,401.167 902.287,411.021 C 918.611,422.691 934.605,435.882 950.598,451.224 C 960.335,461.78 969.094,472.354 980.598,488.259 C 990.478,504.434 998.85,520.756 1005.557,536.639 C 1011.058,552.843 1015.232,568.871 1018.176,585.069 C 1019.697,601.329 1019.973,617.399 1019.235,633.62 C 1017.356,649.872 1014.18,665.956 1009.542,682.262 C 1003.696,698.303 996.401,714.533 987.602,730.771 C 977.256,747.01 956.553,773.716 926.079,805.914" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 381.488,763.794 C 402.914,786.8 418.71,801.402 440.508,818.121 C 467.025,835.111 493.717,849.175 525.633,862.66 C 552.645,871.593 584.826,879.589 616.862,884.91 C 643.665,887.393 681.153,888.099 707.917,886.911 C 740.04,882.97 766.892,877.709 793.903,870.428 C 831.174,857.251 836.431,856.321 841.698,856.712 C 847.004,858.406 868.305,868.782 889.492,877.605 C 905.962,883.15 922.105,887.444 938.066,890.646 Q 954.238,892.499 989.895,890.836" data-line="nan" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 173.98196112893083,653.2492514019685 A 286.4989752268812,286.4989752268812 0 0,1 3.92083766935035,698.3397978911912" data-line="1.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 85.729,593.403 L 4.0,696.845" data-line="2.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/><path d="M 989.895,890.836 L 926.079,805.914" data-line="10.0" stroke-width="45.0" fill="none" stroke="rgb(0, 0, 0)"/></g></svg></span>
+          <h3>Feedback</h3>
+          <p>Nach der Veranstaltung tauschen wir uns aus und verbessern kontinuierlich.</p>
+        </div>
+      </div>
+
+      <p class="steps-note">Der Ablauf ist bewusst schlank gehalten – damit Sie sich auf das Wesentliche konzentrieren können: Ihren besonderen Tag.</p>
+      <p>Die Kosten variieren je nach Veranstaltungsort, -größe und individuellen Anforderungen. Wir erstellen Ihnen gern ein unverbindliches Angebot.</p>
+      <p><a class="btn" href="#kontakt">👉 Jetzt Kontakt aufnehmen</a></p>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section id="faq" aria-labelledby="titel-faq">
+    <div class="wrap">
+      <h2 id="titel-faq">FAQ – Häufig gestellte Fragen</h2>
+      <p>Wir beantworten die wichtigsten Fragen rund um unsere Leistungen – offen, ehrlich und transparent.</p>
+
+      <div class="grid-2">
+        <div class="bar-card faq-item">
+          <h3>Sind Wunschgäste professionelle Tänzer?</h3>
+          <p>Nein. Wir sind reife Menschen mit hoher sozialer Kompetenz. Tanzen ist ein Werkzeug, um Energie zu übertragen – nicht der eigentliche Zweck unserer Arbeit.</p>
+        </div>
+        <div class="bar-card faq-item">
+          <h3>Wie viele Wunschgäste empfehlen Sie?</h3>
+          <p>Für 50–100 Gäste empfehlen wir 2 Wunschgäste. Für 100–200 Gäste sind es 4 Wunschgäste. Bei größeren Feiern beraten wir Sie individuell.</p>
+        </div>
+        <div class="bar-card faq-item">
+          <h3>Können wir die Wunschgäste vorher kennenlernen?</h3>
+          <p>Ja, selbstverständlich. Wir organisieren gerne ein persönliches Kennenlerngespräch vor der Veranstaltung – damit Vertrauen entsteht, bevor der besondere Tag kommt.</p>
+        </div>
+        <div class="bar-card faq-item">
+          <h3>Was passiert bei einer Absage?</h3>
+          <p>Wir arbeiten mit fairen und flexiblen Stornierungsbedingungen. Alle Details werden transparent im Vertrag festgehalten.</p>
+        </div>
+        <div class="bar-card faq-item">
+          <h3>Sind Ihre Wunschgäste versichert?</h3>
+          <p>Ja. Wir sind haftpflichtversichert. Sie können mit einem professionellen und rechtlich abgesicherten Service rechnen.</p>
+        </div>
+        <div class="bar-card faq-item">
+          <h3>Wie diskret arbeiten Sie?</h3>
+          <p>Wir agieren ausschließlich als Gäste unter Gästen. Ihre Gäste erleben Menschen, die positiv auf die Stimmung wirken – nicht professionelle Dienstleister.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== KONTAKT ==================== -->
+  <section id="kontakt" aria-labelledby="titel-kontakt">
+    <div class="wrap">
+      <h2 id="titel-kontakt">Kontakt</h2>
+      <p class="hero-claim">Bereit für eine unvergessliche Feier?</p>
+
+      <p>Lassen Sie uns gemeinsam dafür sorgen, dass Ihre Gäste am Ende des Abends sagen: <strong>„Wow, was für tolle Menschen waren heute hier."</strong> Harmonie ist kein Zufall – sie beginnt mit der richtigen Entscheidung.</p>
+
+      <p>Wir freuen uns auf Ihre Nachricht. Schildern Sie uns Ihre Situation – unverbindlich und vertraulich. Gemeinsam finden wir heraus, wie wir Ihre Feier bereichern können.</p>
+
+      <div class="contact-grid">
+        <div class="contact-box">
+          <h3>Direkt erreichen</h3>
+          <ul class="contact-list">
+            <li><span class="ico" aria-hidden="true">📧</span><span>E-Mail: <a href="mailto:kontakt@wunschgaeste.de">kontakt@wunschgaeste.de</a></span></li>
+            <li><span class="ico" aria-hidden="true">📞</span><span>Telefon: <a href="tel:+491633936512">+49 163 39 36 512</a></span></li>
+            <li><span class="ico" aria-hidden="true">📍</span><span>Standort: Deutschland – bundesweite Verfügbarkeit</span></li>
+          </ul>
+        </div>
+        <div class="contact-ask">
+          <h3>Unverbindlich anfragen</h3>
+          <p>Teilen Sie uns die wichtigsten Eckdaten Ihrer Veranstaltung mit – wir rufen Sie zeitnah an:</p>
+          <ul>
+            <li>Name &amp; Telefonnummer</li>
+            <li>Veranstaltungsdatum und -ort</li>
+            <li>Gästezahl und Anlass</li>
+            <li>Besondere Hinweise oder Wünsche</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== IMPRESSUM & DATENSCHUTZ ==================== -->
+  <section id="recht" aria-labelledby="titel-recht">
+    <div class="wrap legal">
+      <h2 id="titel-recht">Impressum &amp; Datenschutz</h2>
+
+      <h3 id="impressum">Impressum</h3>
+      <address>
+        Wunschgäste.de - Beratung, Coaching, Mediation, Konfliktmanagement<br>
+        Britta Mickler c/o Michael Rudolph<br>
+        Burkersdorfer Weg 19<br>
+        01189 Dresden<br>
+        Deutschland
+      </address>
+      <p>E-Mail: <a href="mailto:kontakt@wunschgaeste.de">kontakt@wunschgaeste.de</a><br>
+      Telefon: <a href="tel:+491633936512">+49 163 39 36 512</a></p>
+
+      <p>Auf dieser Website werden teilweise Bilder und Visualisierungen verwendet, die ganz oder teilweise mit künstlicher Intelligenz erstellt wurden.</p>
+
+      <h4>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h4>
+      <address>
+        Britta Mickler<br>
+        Burkersdorfer Weg 19<br>
+        01189 Dresden<br>
+        Deutschland
+      </address>
+
+      <h3 id="datenschutz">Datenschutzerklärung</h3>
+      <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
+      <address>
+        Britta Mickler c/o Michael Rudolph<br>
+        Burkersdorfer Weg 19<br>
+        01189 Dresden<br>
+        E-Mail: <a href="mailto:kontakt@wunschgaeste.de">kontakt@wunschgaeste.de</a>
+      </address>
+      <p>Beim Aufruf dieser Website verarbeitet der Hosting-Anbieter technisch erforderliche Daten (insbesondere IP-Adresse, Datum und Uhrzeit des Abrufs, aufgerufene Seite, Browser-Informationen), um die Website bereitzustellen und die Sicherheit und Stabilität zu gewährleisten. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.</p>
+      <p>Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage. Die Verarbeitung erfolgt je nach Inhalt Ihrer Anfrage auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO oder Art. 6 Abs. 1 lit. f DSGVO.</p>
+      <p>Eine Weitergabe Ihrer Daten erfolgt nur, soweit dies zur technischen Bereitstellung der Website durch unseren Hosting-Anbieter erforderlich ist oder eine gesetzliche Pflicht besteht.</p>
+      <p>Diese Website verwendet keine Cookies und kein Tracking. Für die Darstellung der Schriftarten werden die Schriften „Bricolage Grotesque“ und „Inter“ über Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) geladen. Dabei wird Ihre IP-Adresse an Google übertragen. Rechtsgrundlage ist unser berechtigtes Interesse an einer einheitlichen Darstellung der Website gemäß Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">policies.google.com/privacy</a>.</p>
+      <p>Die Daten werden gelöscht, sobald sie für den jeweiligen Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+      <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch sowie auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Wunschgäste · Alle Rechte vorbehalten</p>
+    <p><a href="#impressum">Impressum</a> | <a href="#datenschutz">Datenschutz</a></p>
   </div>
-</section>
-<section id="ueber-uns" class="section"><div class="container">
-  <h2>Über Wunschgäste – Wer wir sind</h2>
-  <p class="lead">Wir stellen keine Moderatoren, DJs oder Zeremonienmeister. Wir sind authentische Menschen mit natürlicher Gelassenheit und innerer Ruhe, die das positive Klima Ihrer Feier von innen heraus fördern. Keine Darsteller. Keine Show. Echte Präsenz.</p>
-  <div class="compare"><div class="panel"><h3>Traditionelle Agenturen</h3><ul><li>Stehen auf der Bühne</li><li>Führen ein Programm durch</li><li>Lenken Aufmerksamkeit auf sich</li><li>Performance</li></ul></div><div class="panel gold"><h3>Wunschgäste</h3><ul><li>Mischen sich unter Gäste</li><li>Beteiligen sich aktiv am Programm</li><li>Lenken Fokus auf Ihre Gäste</li><li>Echte Präsenz</li></ul></div></div>
-  <div class="card-grid two"><article><h3>Regulierende Wirkung</h3><p>Wir wirken als Anker der Sicherheit und helfen dabei, Menschen und Situationen sanft zu harmonisieren.</p></article><article><h3>Stabilität</h3><p>Wir bleiben ruhig und gefasst, handeln überlegt und bringen innere Ruhe in jede Situation.</p></article><article><h3>Freundlichkeit</h3><p>Wir treten in natürliche und authentische Interaktion mit Ihren Gästen – offen, warm und unaufdringlich.</p></article><article><h3>Nutzen für die Gruppe</h3><p>Wir sorgen für ein positives Feierklima und senken das allgemeine Stressniveau spürbar.</p></article></div>
-</div></section>
-<section id="leistungen" class="section"><div class="container">
-  <h2>Was wir tun</h2><p class="lead">Wir harmonisieren Ihre Feier. Diskret, wirkungsvoll und mit echter menschlicher Wärme. Wir agieren dort, wo soziale Spannung entsteht – und verwandeln sie in Verbindung.</p>
-  <div class="service-grid">
-    <article><img src="assets/soziale-brueckenbauer-familientisch.jpg" alt="Generationengäste an einer eleganten Feier-Tafel"><h3>Soziale Brückenbauer</h3><p>Wir helfen dabei, dass sich alle wohlfühlen – egal ob Großeltern, Teenager oder internationale Gäste.</p></article>
-    <article><img src="assets/konfliktmanagement-tischgespraech.jpg" alt="Ruhiges Tischgespräch zur Deeskalation zwischen Gästen"><h3>Konfliktmanagement</h3><p>Wir nehmen Spannungen zwischen Gästen frühzeitig wahr und kanalisieren sie behutsam in positive Energie – bevor sie die Feier belasten.</p></article>
-    <article><img src="assets/eisbrecher-mit-klasse-hochzeitsgast.jpg" alt="Lachender Hochzeitsgast als diskreter Eisbrecher"><h3>Eisbrecher mit Klasse</h3><p>Wir initiieren Gespräche und lockern stockende Situationen auf – diskret, natürlich und mit echtem Interesse an den Menschen.</p></article>
-    <article><img src="assets/energie-transfer-hochzeitstanz.jpg" alt="Brautpaar tanzt auf einer festlichen Hochzeit"><h3>Energie-Transfer</h3><p>Wir sind bei Bedarf die Ersten, die tanzen, lachen und feiern – und laden so andere Gäste ein, es uns gleichzutun. Freude ist ansteckend.</p></article>
-  </div>
-  <h2 class="subhead">Perfekt für …</h2><div class="tag-grid"><span>Hochzeiten</span><span>Familienfeiern</span><span>Gemischte Familien</span><span>Generationen-Feiern</span><span>Schüchterne Gäste</span><span>Internationale Gäste</span></div>
-</div></section>
-<section id="werte" class="section"><div class="container">
-  <h2>Wer steckt dahinter?</h2><p class="lead">Wir als Ihre Wunschgäste sind keine Schauspieler, sondern echte Menschen mit hoher sozialer und emotionaler Intelligenz. Gereift, sicher im Umgang mit anderen und mit feinem Gespür für Situationen.</p><h2 class="subhead">Worauf wir achten</h2>
-  <div class="tag-grid"><span>Emotionale Intelligenz</span><span>Soziale Erfahrung</span><span>Diskretion</span><span>Flexibilität</span><span>Natürliche Ausstrahlung</span><span>Echte Präsenz</span></div>
-  <h2 class="subhead">Was uns auszeichnet</h2><div class="icon-grid"><article><span>♙</span><h3>Soziale Dynamik</h3><p>Wir lesen Gruppenstimmungen und verbinden Menschen, bevor Distanz entsteht.</p></article><article><span>♢</span><h3>Deeskalation</h3><p>Konflikte werden ruhig erkannt und unauffällig entschärft.</p></article><article><span>✧</span><h3>Stimmung</h3><p>Wir bringen Leichtigkeit hinein und reduzieren Spannungen.</p></article><article><span>◌</span><h3>Diskretion</h3><p>Unsere Wirkung ist deutlich, unser Auftreten bleibt dezent.</p></article></div>
-</div></section>
-<section id="ablauf" class="section"><div class="container"><h2>Der Ablauf</h2><p class="lead">Einfach, diskret und effektiv. Von der ersten Kontaktaufnahme bis zum gemeinsamen Feedback nach der Veranstaltung begleiten wir Sie Schritt für Schritt – transparent und verlässlich.</p>
-  <div class="process-grid"><article><b>☎</b><h3>Anfrage</h3><p>Sie kontaktieren uns mit Details zu Ihrer Veranstaltung (Datum, Ort, Gästezahl, Besonderheiten).</p></article><article><b>☷</b><h3>Beratung</h3><p>Wir besprechen Ihre Erwartungen und stimmen uns auf Ihre Bedürfnisse ab.</p></article><article><b>▣</b><h3>Vorbereitung</h3><p>Wir erhalten alle relevanten Informationen über Ihre Gäste und den Ablauf.</p></article><article><b>☆</b><h3>Durchführung</h3><p>Wir mischen uns unter Ihre Gäste – unauffällig, aber wirkungsvoll.</p></article><article><b>☏</b><h3>Feedback</h3><p>Nach der Veranstaltung tauschen wir uns aus und verbessern kontinuierlich.</p></article></div>
-  <p>Der Ablauf ist bewusst schlank gehalten – damit Sie sich auf das Wesentliche konzentrieren können: Ihren besonderen Tag.</p><p>Die Kosten variieren je nach Veranstaltungsort, -größe und individuellen Anforderungen. Wir erstellen Ihnen gern ein unverbindliches Angebot.</p><a class="btn" href="#kontakt">👉 Jetzt Kontakt aufnehmen</a>
-</div></section>
-<section id="faq" class="section"><div class="container"><h2>FAQ – Häufig gestellte Fragen</h2><p class="lead">Wir beantworten die wichtigsten Fragen rund um unsere Leistungen – offen, ehrlich und transparent.</p><div class="faq-grid">
-  <article><h3>Sind Wunschgäste professionelle Tänzer?</h3><p>Nein. Wir sind reife Menschen mit hoher sozialer Kompetenz. Tanzen ist ein Werkzeug, um Energie zu übertragen – nicht der eigentliche Zweck unserer Arbeit.</p></article><article><h3>Wie viele Wunschgäste empfehlen Sie?</h3><p>Für 50–100 Gäste empfehlen wir 2 Wunschgäste. Für 100–200 Gäste sind es 4 Wunschgäste. Bei größeren Feiern beraten wir Sie individuell.</p></article><article><h3>Können wir die Wunschgäste vorher kennenlernen?</h3><p>Ja, selbstverständlich. Wir organisieren gerne ein persönliches Kennenlerngespräch vor der Veranstaltung – damit Vertrauen entsteht, bevor der besondere Tag kommt.</p></article><article><h3>Was passiert bei einer Absage?</h3><p>Wir arbeiten mit fairen und flexiblen Stornierungsbedingungen. Alle Details werden transparent im Vertrag festgehalten.</p></article><article><h3>Sind Ihre Wunschgäste versichert?</h3><p>Ja. Wir sind haftpflichtversichert. Sie können mit einem professionellen und rechtlich abgesicherten Service rechnen.</p></article><article><h3>Wie diskret arbeiten Sie?</h3><p>Wir agieren ausschließlich als Gäste unter Gästen. Ihre Gäste erleben Menschen, die positiv auf die Stimmung wirken – nicht professionelle Dienstleister.</p></article>
-</div></div></section>
-<section id="kontakt" class="section"><div class="container"><h2>Kontakt</h2><h2 class="contact-title">Bereit für eine unvergessliche Feier?</h2><p class="lead">Lassen Sie uns gemeinsam dafür sorgen, dass Ihre Gäste am Ende des Abends sagen: <strong><em>„Wow, was für tolle Menschen waren heute hier."</em></strong> Harmonie ist kein Zufall – sie beginnt mit der richtigen Entscheidung.</p><p>Wir freuen uns auf Ihre Nachricht. Schildern Sie uns Ihre Situation – unverbindlich und vertraulich. Gemeinsam finden wir heraus, wie wir Ihre Feier bereichern können.</p><div class="contact-grid"><div class="contact-box"><h3>Direkt erreichen</h3><p>📧 <strong>E-Mail:</strong> <a href="mailto:kontakt@wunschgaeste.de">kontakt@wunschgaeste.de</a></p><p>📍 <strong>Standort:</strong> Deutschland – bundesweite Verfügbarkeit</p></div><div><h3>Unverbindlich anfragen</h3><p>Teilen Sie uns die wichtigsten Eckdaten Ihrer Veranstaltung mit – wir rufen Sie zeitnah an:</p><ul><li>Name &amp; Telefonnummer</li><li>Veranstaltungsdatum und -ort</li><li>Gästezahl und Anlass</li><li>Besondere Hinweise oder Wünsche</li></ul></div></div></div></section>
-<section id="impressum" class="section legal"><div class="container"><h2>Impressum &amp; Datenschutz</h2><div class="legal-grid"><article><h3>Impressum</h3><p>Wunschgäste.de - Beratung, Coaching, Mediation, Konfliktmanagement<br>Britta Mickler c/o Michael Rudolph<br>Burkersdorfer Weg 19<br>01189 Dresden<br>Deutschland</p><p>E-Mail: kontakt@wunschgaeste.de<br>Telefon: +49 163 39 36 512</p><p>Auf dieser Website werden teilweise Bilder und Visualisierungen verwendet, die ganz oder teilweise mit künstlicher Intelligenz erstellt wurden.</p><p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:<br>Britta Mickler<br>Burkersdorfer Weg 19<br>01189 Dresden<br>Deutschland</p></article><article><h3>Datenschutzerklärung</h3><p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br>Britta Mickler c/o Michael Rudolph<br>Burkersdorfer Weg 19<br>01189 Dresden<br>E-Mail: kontakt@wunschgaeste.de</p><p>Beim Aufruf dieser Website verarbeitet der Hosting-Anbieter technisch erforderliche Daten (insbesondere IP-Adresse, Datum und Uhrzeit des Abrufs, aufgerufene Seite, Browser-Informationen), um die Website bereitzustellen und die Sicherheit und Stabilität zu gewährleisten. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.</p><p>Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage. Die Verarbeitung erfolgt je nach Inhalt Ihrer Anfrage auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO oder Art. 6 Abs. 1 lit. f DSGVO.</p><p>Eine Weitergabe Ihrer Daten erfolgt nur, soweit dies zur technischen Bereitstellung der Website durch unseren Hosting-Anbieter erforderlich ist oder eine gesetzliche Pflicht besteht.</p><p>Die Daten werden gelöscht, sobald sie für den jeweiligen Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p><p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch sowie auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde.</p></article></div></div></section>
-</main><footer><div class="container">© 2026 Wunschgäste · Alle Rechte vorbehalten · <a href="#impressum">Impressum</a> | <a href="#impressum">Datenschutz</a></div></footer><script src="script.js"></script></body></html>
+</footer>
+
+<script>
+(function () {
+  var btn = document.querySelector('.nav-toggle');
+  var nav = document.getElementById('hauptnavigation');
+  btn.addEventListener('click', function () {
+    var open = nav.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Menü schließen' : 'Menü öffnen');
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      nav.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // aktiven Navigationspunkt markieren
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        links.forEach(function (a) {
+          a.toggleAttribute('aria-current', a.getAttribute('href') === '#' + en.target.id);
+        });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    targets.forEach(function (t) { io.observe(t); });
+  }
+})();
+</script>
+</body>
+</html>

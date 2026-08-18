@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://wunschgaeste.de/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://wunschgaeste.de/assets/img/hero.jpg</image:loc>
+      <image:title>Wunschgäste – harmonische Gäste für Hochzeit und Familienfeier</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wunschgaeste.de/assets/img/bruecke-600.jpg</image:loc>
+      <image:title>Soziale Brückenbauer auf Ihrer Feier</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wunschgaeste.de/assets/img/konflikt-600.jpg</image:loc>
+      <image:title>Konfliktmanagement auf Hochzeiten und Familienfeiern</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wunschgaeste.de/assets/img/eisbrecher-600.jpg</image:loc>
+      <image:title>Eisbrecher mit Klasse – Gespräche in Gang bringen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wunschgaeste.de/assets/img/energie-600.jpg</image:loc>
+      <image:title>Energie-Transfer – Stimmung auf der Tanzfläche</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -1,0 +1,22 @@
+# robots.txt – wunschgaeste.de
+User-agent: *
+Allow: /
+Disallow: /assets/fonts/
+
+# KI-Crawler ausdrücklich erlaubt (Sichtbarkeit in KI-Antworten)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://wunschgaeste.de/sitemap.xml
